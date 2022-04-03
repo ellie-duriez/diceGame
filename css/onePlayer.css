@@ -1,0 +1,228 @@
+body {
+    text-align: center;
+}
+
+#diceWrapperFlex {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin: 2%;
+    border: 3px solid red;
+}
+
+#dice1 {
+    width: 10em;
+    height: 10em;
+    background-color: white;
+    border: 4px black solid;
+    border-radius: 10%;
+    position: relative;
+}
+
+#dice1dot1,#dice1dot2,#dice1dot3,#dice1dot4,#dice1dot5,#dice1dot6 {
+    position: absolute;
+    visibility: hidden;
+}
+
+#dice1dot6 {
+}
+
+/* DICE1DOT1 */
+#dice1dot1a {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 4em;
+    left: 4em;
+    display: inherit;
+}
+
+/* DICE1DOT2 */
+#dice1dot2a {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+#dice1dot2b {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 7em;
+    left: 7em;
+}
+
+/* DICE1DOT3 */
+#dice1dot3a {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+#dice1dot3b {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 4em;
+    left: 4em;
+}
+#dice1dot3c {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 7em;
+    left: 7em;
+}
+
+/* DICE1DOT4 */
+#dice1dot4a {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+#dice1dot4b {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 1em;
+    left: 7em;
+}
+#dice1dot4c {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 7em;
+    left: 1em;
+}
+#dice1dot4d {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 7em;
+    left: 7em;
+}
+/* DICE1DOT5 */
+#dice1dot5a {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+#dice1dot5b {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 1em;
+    left: 7em;
+}
+#dice1dot5c {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 4em;
+    left: 4em;
+}
+#dice1dot5d {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 7em;
+    left: 1em;
+}
+#dice1dot5e {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 7em;
+    left: 7em;
+}
+/* DICE1DOT6 */
+#dice1dot6a {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+#dice1dot6b {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 1em;
+    left: 7em;
+}
+#dice1dot6c {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 4em;
+    left: 1em;
+}
+#dice1dot6d {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 4em;
+    left: 7em;
+}
+#dice1dot6e {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 7em;
+    left: 1em;
+}
+#dice1dot6f {
+    width: 2em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 7em;
+    left: 7em;
+}
