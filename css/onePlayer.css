@@ -7,7 +7,6 @@ body {
     justify-content: space-around;
     justify-items: center;
     margin: 2%;
-    border: 3px solid red;
 }
 
 #dice1 {
@@ -19,12 +18,14 @@ body {
     position: relative;
 }
 
+#dice1:hover {
+    cursor: pointer;
+    border: dashed 4px rgb(0, 0, 0);
+}
+
 #dice1dot1,#dice1dot2,#dice1dot3,#dice1dot4,#dice1dot5,#dice1dot6 {
     position: absolute;
     visibility: hidden;
-}
-
-#dice1dot6 {
 }
 
 /* DICE1DOT1 */
@@ -226,3 +227,7 @@ body {
     top: 7em;
     left: 7em;
 }
+
+/* #playAgain {
+    display: none;
+} */
