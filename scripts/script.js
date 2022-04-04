@@ -62,4 +62,3 @@ rollPlayer1.addEventListener("mousedown", (event) => {
     }
 })
 
-// test
