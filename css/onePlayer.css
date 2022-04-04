@@ -228,5 +228,6 @@ body {
     left: 7em;
 }
 
-/* #playAgain {
-    display: none;
+#playAgain {
+    visibility: hidden;
+}
