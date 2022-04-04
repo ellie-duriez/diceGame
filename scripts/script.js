@@ -1,4 +1,5 @@
 // PREDEFINING GLOBAL VARIBALES
+//
 const rollPlayer1 = document.getElementById("dice1");
 const rollPlayer2 = document.getElementById("dice2");
 let currScorePlayer1 = document.getElementById("currentScore1");
@@ -60,3 +61,5 @@ rollPlayer1.addEventListener("mousedown", (event) => {
         totScorePlayer1.innerText = "0";
     }
 })
+
+// test
