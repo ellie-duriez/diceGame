@@ -73,7 +73,7 @@ const playNewGame1 = () => {
             
         }
 
-        if (trackScorePlayer1 >= 30) {
+        if (trackScorePlayer1 >= 20) {
             // document.getElementById("playAgain").style.display = "show";
             alert("You win!");
             console.log("over30")
