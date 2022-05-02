@@ -1,26 +1,25 @@
-body {
-    text-align: center;
-}
+
 
 #diceWrapperFlex {
     display: flex;
     justify-content: space-around;
     justify-items: center;
     margin: 2%;
+    font-size: 150%;
 }
 
 #dice1 {
-    width: 10em;
-    height: 10em;
+    width: 10.5em;
+    height: 10.5em;
     background-color: white;
-    border: 4px black solid;
+    border: 6px black solid;
     border-radius: 10%;
     position: relative;
 }
 
 #dice1:hover {
     cursor: pointer;
-    border: dashed 4px rgb(0, 0, 0);
+    border: dashed 6px rgb(0, 0, 0);
 }
 
 #dice1dot1,#dice1dot2,#dice1dot3,#dice1dot4,#dice1dot5,#dice1dot6 {
