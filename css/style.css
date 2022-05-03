@@ -24,11 +24,11 @@ p,h1,h2,h3,span {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 5rem;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 ul {
@@ -36,25 +36,36 @@ ul {
     color: #fff9dd;
     padding: 1em 2em;
     text-align: left;
-    border-radius: 2em;
+    border-radius: 2rem;
 }
 
 button {
     color: #2C2E43;
     background-color: #6be6ff;
     width: auto;
-    font-size: 1.25em;
-    padding: 1em 2em;
-    border-radius: 20px;
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+    border-radius: 1em;
     font-weight: 700;
 }
 
 #totalScore1, #totalScore2 {
-    font-size: 3.5em;
+    font-size: 3.5rem;
     border: #6be6ff double 0.25em;
     border-radius: 100%;
     padding: 0.35em 0.5em;
     margin: 0.2em;
     display: inline-block;
-    width: 2.6em;
+    width: 2.6rem;
+}
+
+@media (max-width:1050px) {
+    * {
+        font-size: 10px;
+    }
+
+@media (max-width:650px) {
+    * {
+        font-size: 5px;
+    }
 }
